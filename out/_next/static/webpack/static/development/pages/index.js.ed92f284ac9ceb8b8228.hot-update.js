@@ -1,11 +1,11 @@
-webpackHotUpdate("static/development/pages/about.js",{
+webpackHotUpdate("static/development/pages/index.js",{
 
 /***/ "./node_modules/process/browser.js":
 false,
 
-/***/ "./pages/about.js":
+/***/ "./pages/index.js":
 /*!************************!*\
-  !*** ./pages/about.js ***!
+  !*** ./pages/index.js ***!
   \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/Users/axelobscura/Desktop/AUTH_NEXT/AUTH-NEXT/pages/about.js";
+    _jsxFileName = "/Users/axelobscura/Desktop/AUTH_NEXT/AUTH-NEXT/pages/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -27,43 +27,29 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3,
+      lineNumber: 4,
       columnNumber: 3
     }
-  }, __jsx("div", {
+  }, "Hello World. ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    as: '/about',
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4,
-      columnNumber: 5
-    }
-  }, "About us"), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 5
-    }
-  }, "Back to ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    as: '/',
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 18
+      columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
-      columnNumber: 42
+      lineNumber: 4,
+      columnNumber: 55
     }
-  }, "Home"))));
+  }, "About")));
 });
 
 /***/ })
 
 })
-//# sourceMappingURL=about.js.23e430f1a16b4aca9f45.hot-update.js.map
+//# sourceMappingURL=index.js.ed92f284ac9ceb8b8228.hot-update.js.map

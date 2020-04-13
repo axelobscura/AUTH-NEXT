@@ -1,7 +1,10 @@
-import Link from 'next/link'
+import Link from 'next/link';
+
+console.log('process: ' + process.env.NODE_ENV);
+
 export default () => (
   <div>
     <div>About us</div>
-    <div>Back to <Link href='/' as={'/'}><a>Home</a></Link></div>
+    <div>Back to <Link href='/' as={process.env.BACKEND_URL + '/'}><a>Home</a></Link></div>
   </div>
 )
