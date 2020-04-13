@@ -1,6 +1,6 @@
 {
   "name": "gh-pages",
-  "author": "thierryc",
+  "author": "Axel Laurent Obscura Sarzotti",
   "version": "1.0.2",
   "scripts": {
     "dev": "next",
