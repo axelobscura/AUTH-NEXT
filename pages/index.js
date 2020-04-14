@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+console.log('process: ' + JSON.stringify(process.env));
 console.log('process: ' + process.env.BACKEND_URL);
 
 export default () => (
